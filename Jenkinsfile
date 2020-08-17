@@ -17,9 +17,8 @@ pipeline {
         steps {
           echo "Deploying.."
         }
-        
-      echo "pipeline was successfull"
-      }
+
+     }
       
-    }
+   }
 }
