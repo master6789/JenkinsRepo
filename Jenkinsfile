@@ -16,6 +16,7 @@ pipeline {
       stage('Deploying') {
         steps {
           echo "Deploying.."
+          docker run -d -p 8090:80 50000:50000 nginx:alpine
         }
 
      }
