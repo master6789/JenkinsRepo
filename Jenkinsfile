@@ -19,8 +19,8 @@ pipeline {
           echo "Deploying.."
         }
         
-      
-      }
       echo "pipeline was successfull"
+      }
+      
     }
 }
