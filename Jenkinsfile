@@ -23,7 +23,7 @@ pipeline {
       stage('Apply Kubernetes files') {	
       		steps {
       		  script {
-            		withKubeConfig([credentialsId: 'dc8af005-5efa-45b7-b9ec-caab715764bd']) {
+            		withKubeConfig(credentialsId: '416c1ee7-679b-4b23-bbb4-8ca6071e5a98') {
                    sh 'kubectl get all node'
             		}
         		}
